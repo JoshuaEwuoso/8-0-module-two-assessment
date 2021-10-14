@@ -8,15 +8,25 @@ header {
     grid-column: 2 / 6;
     text-align: right;
 }
-select {
-    grid-column: 3;
-    margin-top: 10%;
-}
 
 h1 {
     margin-right: 5%;
 }
 
-section {
-    grid-column: 2 / 6;
+.view {
+    grid-column: 3 / 5;
+    margin-top: 10%;
+}
+
+form {
+    grid-column: 3 / 4; 
+    margin-top: 10%;
+}
+
+ul {
+    grid-column: 3 / 4;
+}
+
+p {
+    grid-column: 3 / 5;
 }
