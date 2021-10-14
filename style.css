@@ -3,19 +3,23 @@ body {
     grid-template-columns: repeat(6, 1fr);
     background-color: lavender;
 }
+
 header {
     background-color: skyblue;
     grid-column: 2 / 6;
-    text-align: right;
 }
 
 h1 {
     margin-right: 5%;
+    font-family: monospace;
+    font-size: 300%;
+    text-align: right;
 }
 
 .view {
     grid-column: 3 / 5;
     margin-top: 10%;
+    font-size: 150%;
 }
 
 form {
@@ -29,4 +33,14 @@ ul {
 
 p {
     grid-column: 3 / 5;
+    font-family: monospace;
+}
+
+h3 {
+    font-family: monospace;  
+}
+
+li {
+    font-size: 150%;
+  font-family: monospace;   
 }
