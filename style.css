@@ -1,0 +1,22 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: lavender;
+}
+header {
+    background-color: skyblue;
+    grid-column: 2 / 6;
+    text-align: right;
+}
+select {
+    grid-column: 3;
+    margin-top: 10%;
+}
+
+h1 {
+    margin-right: 5%;
+}
+
+section {
+    grid-column: 2 / 6;
+}
