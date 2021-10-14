@@ -44,3 +44,8 @@ li {
     font-size: 150%;
   font-family: monospace;   
 }
+
+label {
+    font-family: monospace;
+    font-size: 125%;
+}
